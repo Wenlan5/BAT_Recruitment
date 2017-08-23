@@ -7,14 +7,14 @@ option = {
         formatter: "{a} <br/>{b}: {c} ({d}%)"
     },
     legend: {
-        orient: 'vertical',
-        x: 'left',
+        orient: 'horizontal',
+        x: 'top',
         data: ['腾讯', '阿里', '百度']
     },
     series: [{
-        name: '访问来源',
+        name: '提供岗位数量',
         type: 'pie',
-        radius: ['50%', '70%'],
+        radius: ['47%', '70%'],
         avoidLabelOverlap: false,
         label: {
             normal: {

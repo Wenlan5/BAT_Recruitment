@@ -35,14 +35,15 @@ var data = [{
 
 var geoCoordMap = {
     '阳泉': [112.5, 38.00],
+    '上海': [121.5, 31.35],
     '厦门': [118.1, 24.46],
     '广州': [113.23, 23.16],
     '深圳': [114.07, 22.62],
-    '南京': [118.78, 32.04],
+    '南京': [119.99, 32.54],
     '北京': [116.46, 39.92],
     '天津': [117.2, 39.13],
     '成都': [104.06, 30.67],
-    '杭州': [120.19, 30.26]
+    '杭州': [120.39, 30.26]
 };
 
 var convertData = function(data) {
@@ -101,7 +102,7 @@ option = {
         coordinateSystem: 'geo',
         data: convertData(data),
         symbolSize: function(val) {
-            return val[2] / 10;
+            return val[2] / 8;
         },
         label: {
             normal: {

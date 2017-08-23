@@ -1,5 +1,6 @@
 var myChart = echarts.init(document.getElementById('mainbar_tech'));
 
+
 option = {
     color: ['#3398DB'],
     tooltip: {
