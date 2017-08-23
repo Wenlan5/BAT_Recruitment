@@ -34,7 +34,10 @@ option = {
             7,
             8,
             13
-        ]
+        ],
+        itemStyle: {
+            normal: { color: '#fcfc05' }
+        }
     }]
 };
 

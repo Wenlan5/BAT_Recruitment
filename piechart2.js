@@ -24,8 +24,8 @@ option = {
             emphasis: {
                 show: true,
                 textStyle: {
-                    fontSize: '30',
-                    fontWeight: 'bold'
+                    fontSize: '40',
+                    fontWeight: 'bolder'
                 }
             }
         },
@@ -34,10 +34,27 @@ option = {
                 show: false
             }
         },
-        data: [
-            { value: 143, name: '腾讯' },
-            { value: 84, name: '阿里' },
-            { value: 71, name: '百度' },
+        data: [{
+                value: 143,
+                name: '腾讯',
+                itemStyle: {
+                    normal: { color: '#70ad47' }
+                }
+            },
+            {
+                value: 84,
+                name: '阿里',
+                itemStyle: {
+                    normal: { color: '#ffc000' }
+                }
+            },
+            {
+                value: 71,
+                name: '百度',
+                itemStyle: {
+                    normal: { color: '#5b9bd5' }
+                }
+            },
 
         ]
     }]

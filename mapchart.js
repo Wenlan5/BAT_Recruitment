@@ -60,7 +60,7 @@ var convertData = function(data) {
 };
 
 option = {
-    backgroundColor: '#333c48',
+    backgroundColor: '#ffffff',
     tooltip: {
         trigger: 'item'
     },
@@ -71,7 +71,7 @@ option = {
         x: 'right',
         data: ['BAT'],
         textStyle: {
-            color: 'rgb(000, 000, 128)'
+            color: '#f05f40'
         }
     },
 
@@ -84,14 +84,14 @@ option = {
         },
         roam: false,
         zoom: 1.2,
-        center: [104.06, 35.67],
+        center: [104.06, 34.0],
         itemStyle: {
             normal: {
-                areaColor: '#323c48',
-                borderColor: '#111'
+                areaColor: '#ffffff',
+                borderColor: '#c84b31'
             },
             emphasis: {
-                areaColor: '#2a333d'
+                areaColor: '#e7ab9e'
             }
         }
     },
@@ -105,17 +105,12 @@ option = {
         },
         label: {
             normal: {
-                formatter: '{b}',
+                formatter: '{d}',
                 position: 'right',
                 show: false
             },
             emphasis: {
                 show: true
-            }
-        },
-        itemStyle: {
-            normal: {
-                color: '#ddb926'
             }
         }
     }, {
@@ -135,6 +130,7 @@ option = {
         hoverAnimation: true,
         label: {
             normal: {
+                color: '#8c3d2c',
                 formatter: '{b}',
                 position: 'right',
                 show: true
@@ -142,9 +138,9 @@ option = {
         },
         itemStyle: {
             normal: {
-                color: '#f4e925',
-                shadowBlur: 55,
-                shadowColor: '#333'
+                color: '#f05f40',
+                shadowBlur: 5,
+                shadowColor: '#5f271c'
             }
         },
         zlevel: 10
