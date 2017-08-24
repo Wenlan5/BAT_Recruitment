@@ -198,7 +198,11 @@ header.masthead {
     min-height: auto;
     text-align: center;
     color: #fff;
+<<<<<<< HEAD
     background-image: url(https://wenlan5.github.io/BAT_Recruitment/header.jpg);
+=======
+    background-image: url(/header.jpg);
+>>>>>>> f3dcbab7fca7db9ae001603fa8e19f4a60dbcd1c
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
